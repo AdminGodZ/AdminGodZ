@@ -1,5 +1,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=AdminGodZ.AdminGodZ" />
 
+<div style="border: 5px solid; border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1; padding: 20px; border-radius: 15px; animation: borderGlow 5s infinite;">
+
 <h1 align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Baloo+Thambi+2&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&color=6a0dad&lines=Hey!+;I'm+AdminGod!+💜;" />
 </h1>
@@ -59,3 +61,19 @@
         <img src="https://img.icons8.com/color/48/000000/ruby-on-rails.png" alt="Ruby on Rails" style="vertical-align:middle;"/> 
     </p>
 </div>
+
+</div>
+
+<style>
+@keyframes borderGlow {
+    0% {
+        border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    }
+    50% {
+        border-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red) 1;
+    }
+    100% {
+        border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    }
+}
+</style>
