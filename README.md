@@ -63,17 +63,3 @@
 </div>
 
 </div>
-
-<style>
-@keyframes borderGlow {
-    0% {
-        border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
-    }
-    50% {
-        border-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red) 1;
-    }
-    100% {
-        border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
-    }
-}
-</style>
