@@ -67,8 +67,8 @@
         <img src="https://img.icons8.com/?size=48&id=lRjcvhvtR81o&format=png&color=000000" alt="Laravel" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="Symfony" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=X8d5cAM4URhC&format=png&color=000000" alt="Gatsby" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/ios/48/ember.png" alt="Ember" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/svelte.png" alt="Svelte" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=48&id=RrpsObb9IBGY&format=png&color=000000" alt="Ember" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=48&id=Mm35TzLKahiF&format=png&color=000000" alt="Svelte" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=3u82blvEilbF&format=png&color=000000" alt="Jest" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=8Hl5BAVcagD8&format=png&color=000000" alt="Aurelia" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=R9ClDX2LkAoM&format=png&color=000000" alt="Meteor" style="vertical-align:middle;"/> 
