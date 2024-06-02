@@ -1,12 +1,12 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=AdminGodZ.AdminGodZ" />
 
-<h1 align="center">
+<h1 align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Baloo+Thambi+2&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&color=6a0dad&lines=Hey!+;I'm+AdminGod!+💜;" />
 </h1>
 
-<h2 align="center"><b>I am currently a learning programmer</b></h2>
+<h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;"><b>I am currently a learning programmer</b></h2>
 <br/>
-<div align="center">
+<div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <h3><b>My most favorite programming languages:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="vertical-align:middle;"/> 
@@ -29,9 +29,9 @@
 
 <hr/>
 
-<h2 align="center">⚒️ <b>Languages and Frameworks I Know</b> ⚒️</h2>
+<h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;">⚒️ <b>Languages and Frameworks I Know</b> ⚒️</h2>
 <br/>
-<div align="center">
+<div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <h3><b>Programming Languages:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="vertical-align:middle;"/> 
@@ -62,9 +62,3 @@
         <img src="https://img.icons8.com/color/48/000000/ruby-on-rails.png" alt="Ruby on Rails" style="vertical-align:middle;"/> 
     </p>
 </div>
-
-<style>
-    * {
-        font-family: 'Baloo Thambi 2', cursive;
-    }
-</style>
