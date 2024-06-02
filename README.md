@@ -21,8 +21,8 @@
     </p>
     <h3><b>My most used IDEs:</b></h3>
     <p>
-        <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/fluent/48/000000/visual-studio-2019.png" alt="Visual Studio" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" alt="Visual Studio" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" alt="IntelliJ" style="vertical-align:middle;"/> 
     </p>
 </div>
@@ -47,6 +47,16 @@
         <img src="https://img.icons8.com/color/48/000000/swift.png" alt="Swift" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/r.png" alt="R" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/assembly.png" alt="Assembly" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/bash.png" alt="Bash" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/curl.png" alt="Curl" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/lua.png" alt="Lua" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/rust.png" alt="Rust" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/sql.png" alt="SQL" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/unity.png" alt="Unity" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/webassembly.png" alt="WebAssembly" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/wolfram.png" alt="Wolfram Language" style="vertical-align:middle;"/>
     </p>
     <h3><b>Frameworks:</b></h3>
     <p>
