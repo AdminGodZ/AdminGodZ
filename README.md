@@ -70,7 +70,7 @@
         <img src="https://img.icons8.com/ios/48/ember.png" alt="Ember" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/svelte.png" alt="Svelte" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=3u82blvEilbF&format=png&color=000000" alt="Jest" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/ios/48/aurelia.png" alt="Aurelia" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=48&id=8Hl5BAVcagD8&format=png&color=000000" alt="Aurelia" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=R9ClDX2LkAoM&format=png&color=000000" alt="Meteor" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS" style="vertical-align:middle;"/>
