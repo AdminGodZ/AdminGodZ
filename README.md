@@ -2,12 +2,13 @@
 
 <h1 align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Baloo+Thambi+2&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&color=6a0dad&lines=Hey!+;I'm+AdminGod!;" />
-    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49c/512.gif" alt="💜" width="32" height="32">
 </h1>
 
 <h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;"><b>I am currently a learning programmer</b></h2>
 <div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
+    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49c/512.gif" alt="💜" width="32" height="32">
     <h3><b>My most favorite programming languages:</b></h3>
+    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49c/512.gif" alt="💜" width="32" height="32">
     <p>
         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" style="vertical-align:middle;"/> 
