@@ -42,7 +42,7 @@
         <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" alt="C#" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Ruby" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/go.png" alt="Go" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/golang.png" alt="Go" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/kotlin.png" alt="Kotlin" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/swift.png" alt="Swift" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP" style="vertical-align:middle;"/> 
@@ -60,15 +60,31 @@
     </p>
     <h3><b>Frameworks:</b></h3>
     <p>
-        <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="ReactJS" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/asp-net.png" alt="ASP.NET" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/laravel.png" alt="Laravel" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/flutter.png" alt="Flutter" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/ruby-on-rails.png" alt="Ruby on Rails" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="Symfony" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/gatsby.png" alt="Gatsby" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/sinatra.png" alt="Sinatra" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/horde.png" alt="Horde" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/hibernate.png" alt="Hibernate" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/play.png" alt="Play" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/jquery.png" alt="jQuery" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/underscore.png" alt="Underscore" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/svelte.png" alt="Svelte" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/backbone.png" alt="Backbone" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/ember.png" alt="Ember" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/lit.png" alt="Lit" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/jest.png" alt="Jest" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/aurelia.png" alt="Aurelia" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/meteor.png" alt="Meteor" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" style="vertical-align:middle;"/> 
     </p>
 </div>
 
