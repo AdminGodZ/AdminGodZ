@@ -20,7 +20,7 @@
     <h3><b>My most used IDEs:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
-[       <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" alt="Visual Studio" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/?size=100&id=ezj3zaVtImPg&format=png&color=000000" alt="Visual Studio" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" alt="IntelliJ" style="vertical-align:middle;"/> 
     </p>
 </div>
@@ -39,7 +39,7 @@
         <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" alt="C#" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Ruby" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=100&id=e2hIFBAN6UIe&format=png&color=000000" alt="Ruby" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/golang.png" alt="Go" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/kotlin.png" alt="Kotlin" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/swift.png" alt="Swift" style="vertical-align:middle;"/> 
@@ -53,8 +53,10 @@
         <img src="https://img.icons8.com/color/48/000000/rust.png" alt="Rust" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/sql.png" alt="SQL" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/unity.png" alt="Unity" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/color/48/000000/web-assembly.png" alt="WebAssembly" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/color/48/000000/wolfram-mathematica.png" alt="Wolfram Language" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/?size=100&id=3wMZoNWmmsaK&format=png&color=000000" alt="WebAssembly" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/?size=100&id=Onmn6RPrwtZQ&format=png&color=000000" alt="Wolfram Language" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" style="vertical-align:middle;"/>
     </p>
     <h3><b>Frameworks:</b></h3>
     <p>
@@ -64,16 +66,17 @@
         <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/laravel.png" alt="Laravel" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=100&id=lRjcvhvtR81o&format=png&color=000000" alt="Laravel" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/ruby-on-rails.png" alt="Ruby on Rails" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="Symfony" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/gatsby-is-a-free-and-open-source-framework-based-on-react-that-helps-developers.png" alt="Gatsby" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=100&id=X8d5cAM4URhC&format=png&color=000000" alt="Gatsby" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/ios/48/ember.png" alt="Ember" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/svelte.png" alt="Svelte" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/jest.png" alt="Jest" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=100&id=3u82blvEilbF&format=png&color=000000" alt="Jest" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/ios/48/aurelia.png" alt="Aurelia" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/meteor.png" alt="Meteor" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=100&id=R9ClDX2LkAoM&format=png&color=000000" alt="Meteor" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="TailwindCSS" style="vertical-align:middle;"/> 
     </p>
 </div>
