@@ -46,7 +46,6 @@
         <img src="https://img.icons8.com/color/48/000000/r.png" alt="R" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/assembly.png" alt="Assembly" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/bash.png" alt="Bash" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/ios-filled/48/000000/curl.png" alt="Curl" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/lua-language.png" alt="Lua" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/rust.png" alt="Rust" style="vertical-align:middle;"/>
