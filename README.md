@@ -20,7 +20,7 @@
     <h3><b>My most used IDEs:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
-[        <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" alt="Visual Studio" style="vertical-align:middle;"/> ](https://icons8.com/icon/ezj3zaVtImPg/visual-studio)
+[       <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" alt="Visual Studio" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" alt="IntelliJ" style="vertical-align:middle;"/> 
     </p>
 </div>
