@@ -12,13 +12,11 @@
         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" style="vertical-align:middle;"/> 
     </p>
-
     <h3><b>My most favorite frameworks:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="ReactJS" style="vertical-align:middle;"/> 
     </p>
-
     <h3><b>My most used IDEs:</b></h3>
     <p>
         <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
@@ -48,7 +46,6 @@
         <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/r.png" alt="R" style="vertical-align:middle;"/> 
     </p>
-
     <h3><b>Frameworks:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
