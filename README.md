@@ -4,6 +4,8 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Baloo+Thambi+2&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&color=6a0dad&lines=Hey!+;I'm+AdminGod!+💜;" />
 </h1>
 
+<hr/>
+
 <h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;"><b>I am currently a learning programmer</b></h2>
 <br/>
 <div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
