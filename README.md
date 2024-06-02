@@ -7,7 +7,6 @@
 <hr/>
 
 <h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;"><b>I am currently a learning programmer</b></h2>
-<br/>
 <div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <h3><b>My most favorite programming languages:</b></h3>
     <p>
