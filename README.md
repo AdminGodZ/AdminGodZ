@@ -66,7 +66,6 @@
         <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=lRjcvhvtR81o&format=png&color=000000" alt="Laravel" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/ruby-on-rails.png" alt="Ruby on Rails" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="Symfony" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/?size=48&id=X8d5cAM4URhC&format=png&color=000000" alt="Gatsby" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/ios/48/ember.png" alt="Ember" style="vertical-align:middle;"/> 
