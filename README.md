@@ -7,7 +7,6 @@
  </div>
 
 
- <hr/>
  
 <h2 align="center">I am currently a learning programmer</h2>
 <br/>
