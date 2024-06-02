@@ -1,7 +1,5 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=AdminGodZ.AdminGodZ" />
 
-<div style="border: 5px solid; border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1; padding: 20px; border-radius: 15px; animation: borderGlow 5s infinite;">
-
 <h1 align="center" style="font-family: 'Baloo Thambi 2', cursive;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Baloo+Thambi+2&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&color=6a0dad&lines=Hey!+;I'm+AdminGod!+💜;" />
 </h1>
@@ -56,13 +54,13 @@
         <img src="https://img.icons8.com/color/48/000000/sql.png" alt="SQL" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/unity.png" alt="Unity" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/webassembly.png" alt="WebAssembly" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/ios/50/000000/wolfram-mathematica.png" alt="Wolfram Language" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/color/48/000000/wolfram-mathematica.png" alt="Wolfram Language" style="vertical-align:middle;"/>
     </p>
     <h3><b>Frameworks:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/asp-net.png" alt="ASP.NET" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/ios/48/express-js.png" alt="Express" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" style="vertical-align:middle;"/> 
@@ -76,16 +74,14 @@
         <img src="https://img.icons8.com/color/48/000000/hibernate.png" alt="Hibernate" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/play.png" alt="Play" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/jquery.png" alt="jQuery" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/underscore.png" alt="Underscore" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/ios/48/underscore.png" alt="Underscore" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/svelte.png" alt="Svelte" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/backbone.png" alt="Backbone" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/ember.png" alt="Ember" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/lit.png" alt="Lit" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/ios/48/backbone-js.png" alt="Backbone" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/ios/48/ember.png" alt="Ember" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/color/48/lit.png" alt="Lit" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/jest.png" alt="Jest" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/color/48/000000/aurelia.png" alt="Aurelia" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/ios/48/aurelia.png" alt="Aurelia" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/meteor.png" alt="Meteor" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" style="vertical-align:middle;"/> 
     </p>
-</div>
-
 </div>
