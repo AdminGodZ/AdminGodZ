@@ -19,7 +19,7 @@
     <h3><b>My most used IDEs:</b></h3>
     <p>
         <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VSCode" style="vertical-align:middle;"/> 
-        <img src="https://img.icons8.com/?size=100&id=ezj3zaVtImPg&format=png&color=000000" alt="Visual Studio" style="vertical-align:middle;"/> 
+        <img src="https://img.icons8.com/?size=48&id=ezj3zaVtImPg&format=png&color=000000" alt="Visual Studio" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" alt="IntelliJ" style="vertical-align:middle;"/> 
     </p>
 </div>
@@ -46,7 +46,7 @@
         <img src="https://img.icons8.com/color/48/000000/r.png" alt="R" style="vertical-align:middle;"/> 
         <img src="https://img.icons8.com/color/48/000000/assembly.png" alt="Assembly" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/bash.png" alt="Bash" style="vertical-align:middle;"/>
-        <img src="https://img.icons8.com/ios-filled/50/000000/curl.png" alt="Curl" style="vertical-align:middle;"/>
+        <img src="https://img.icons8.com/ios-filled/48/000000/curl.png" alt="Curl" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/lua-language.png" alt="Lua" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" style="vertical-align:middle;"/>
         <img src="https://img.icons8.com/color/48/000000/rust.png" alt="Rust" style="vertical-align:middle;"/>
