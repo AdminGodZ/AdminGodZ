@@ -7,10 +7,10 @@
 <h2 align="center" style="font-family: 'Baloo Thambi 2', cursive;"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49c/512.gif" alt="💜" width="32" height="32"><b>I am currently a learning programmer</b><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49c/512.gif" alt="💜" width="32" height="32"></h2>
 
 ## About Me
-- **Name:** [Your Name]
-- **Location:** [Your Location]
-- **Contact:** [Your Contact Information]
-- **Bio:** [A brief bio about yourself, your interests, and your goals]
+- **Name:** AdminGod
+- **Location:** Switzerland
+- **Contact:** github@admingod.8shield.net
+- **Bio:** None
 
 ## Table of Contents
 - [About Me](#about-me)
