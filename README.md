@@ -10,13 +10,6 @@
 - **Name:** AdminGod
 - **Location:** Switzerland
 - **Contact:** github@admingod.8shield.net
-- **Bio:** None
-
-## Table of Contents
-- [About Me](#about-me)
-- [Favorite IDEs](#favorite-ides)
-- [Projects](#projects)
-- [Bio](#bio)
 
 ## Favorite IDEs
 <div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
@@ -35,11 +28,3 @@
         </tbody>
     </table>
 </div>
-
-## Projects
-- [Project 1](#)
-- [Project 2](#)
-- [Project 3](#)
-
-## Bio
-[A brief bio about yourself, your interests, and your goals]
