@@ -9,7 +9,7 @@
 ## About Me
 - **Name:** AdminGod
 - **Location:** Switzerland
-- **Contact:** github@admingod.8shield.net
+- **Contact:** github@admingod.simplelogin.com
 
 ## Favorite IDEs
 <div align="center" style="font-family: 'Baloo Thambi 2', cursive;">
