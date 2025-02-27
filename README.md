@@ -1,5 +1,26 @@
 # 💫 About Me:
-Working on hosting my own search engine: SearXNG<br>Having multiple projects and selfhosted instances, Im currently a learning programmer in switzerland, my name is private but you can call me AdminGod.<br>I love programming and experimenting with Ai models like Claude and ChatGPT especially when it comes to programming<br>I am also very stong in mathematics (for my age) and do it as a hobby and spend lots of time on it in my freetime
+
+## 👋 Hello, I'm AdminGod
+
+I'm a passionate developer from Switzerland on a journey to explore the frontiers of technology and mathematics. While I prefer to keep my real name private, I'm actively building a diverse portfolio of projects that reflect my interests in privacy-focused technology, AI, and mathematical concepts.
+
+### 🔍 Current Projects
+
+I'm currently working on hosting my own instance of **SearXNG** — a privacy-respecting, open-source metasearch engine. This aligns with my belief in data sovereignty and creating technology that respects user privacy while delivering powerful functionality.
+
+### 💻 Technical Background
+
+As an emerging programmer, I maintain several self-hosted instances and applications that serve as both practical tools and learning experiences. My development philosophy combines practical application with continuous experimentation.
+
+### 🤖 AI Exploration
+
+I'm particularly fascinated by AI technologies and their applications in programming. I frequently work with advanced models like Claude and ChatGPT to enhance my development workflow, prototype ideas, and solve complex problems. This symbiotic approach to coding—combining human creativity with AI capabilities—represents what I believe is the future of software development.
+
+### 📐 Mathematical Passion
+
+Mathematics is more than just a skill for me—it's a hobby I dedicate significant time to. For my age, I've developed a strong foundation in various mathematical disciplines, which I apply to problem-solving in my programming projects and daily challenges.
+
+---
 
 
 ## 🌐 Socials:
