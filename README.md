@@ -20,9 +20,7 @@ Working on hosting my own search engine: SearXNG<br>Having multiple projects and
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=AdminGodZ&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
----
-[![](https://visitcount.itsvg.in/api?id=AdminGodZ&icon=8&color=10)](https://visitcount.itsvg.in)
-
+<h2>Snake</h2>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
