@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the stats block in README.md from the GitHub API.
 
-Counts merged PRs, lines added, and the top languages (weighted by how many
+Counts commits, merged PRs, lines added, and the top languages (weighted by how many
 lines you added in each repo). Needs a token in GH_TOKEN that can read your
 private repos, otherwise only public activity is counted.
 """
@@ -90,20 +90,21 @@ def collect_repos(login):
     return sorted(name for name, is_fork in repos.items() if not is_fork)
 
 
-def lines_added(repo, login):
+def contributor_stats(repo, login):
+    """Return (commits, lines added) by login on the repo's default branch."""
     # The stats endpoint answers 202 while GitHub computes it in the background.
     for _ in range(10):
         status, data = request(f"/repos/{repo}/stats/contributors")
         if status == 200:
             for contributor in data or []:
                 if (contributor.get("author") or {}).get("login", "").lower() == login.lower():
-                    return sum(week["a"] for week in contributor["weeks"])
-            return 0
+                    return contributor["total"], sum(week["a"] for week in contributor["weeks"])
+            return 0, 0
         if status == 204:
-            return 0
+            return 0, 0
         time.sleep(3)
     print(f"warning: stats for {repo} still not ready, skipping", file=sys.stderr)
-    return 0
+    return 0, 0
 
 
 def compact(n):
@@ -130,10 +131,12 @@ def main():
         q=f"author:{login} is:pr is:merged",
     )["search"]["issueCount"]
 
+    total_commits = 0
     total_lines = 0
     languages = Counter()
     for repo in repos:
-        added = lines_added(repo, login)
+        commits, added = contributor_stats(repo, login)
+        total_commits += commits
         if not added:
             continue
         total_lines += added
@@ -141,7 +144,7 @@ def main():
         repo_total = sum(bytes_by_language.values())
         for language, size in bytes_by_language.items():
             languages[language] += added * size / repo_total
-        print(f"{repo}: +{added}", file=sys.stderr)
+        print(f"{repo}: {commits} commits, +{added}", file=sys.stderr)
 
     language_total = sum(languages.values()) or 1
     top = [
@@ -152,8 +155,9 @@ def main():
     block = "\n".join([
         "<!-- STATS:START -->",
         '<p align="center">',
+        "  " + badge("Commits", compact(total_commits), "F05032", "git"),
         "  " + badge("PRs merged", str(merged_prs), "8957E5", "github"),
-        "  " + badge("Lines pushed", compact(total_lines), "2EA44F", "git"),
+        "  " + badge("Lines pushed", compact(total_lines), "2EA44F", "github"),
         "</p>",
         '<p align="center">',
         *("  " + b for b in top),
@@ -166,7 +170,7 @@ def main():
     updated = re.sub(r"<!-- STATS:START -->.*?<!-- STATS:END -->", lambda _: block, readme, flags=re.S)
     with open(README, "w") as f:
         f.write(updated)
-    print(f"{merged_prs} merged PRs, {total_lines} lines, top: {languages.most_common(3)}", file=sys.stderr)
+    print(f"{total_commits} commits, {merged_prs} merged PRs, {total_lines} lines, top: {languages.most_common(3)}", file=sys.stderr)
 
 
 if __name__ == "__main__":
