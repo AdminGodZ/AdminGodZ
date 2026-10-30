@@ -117,8 +117,7 @@ def render(repo, theme):
         out.append(f'<text x="{WIDTH - PAD}" y="176" font-size="12" text-anchor="end" fill="{t["title"]}">{esc(domain)}</text>')
         out.append(icon("link", WIDTH - PAD - text_width(domain, 12) - 19, 165, t["title"]))
 
-    accent = langs[0][1] if langs else t["border"]
-    return card(WIDTH, HEIGHT, theme, out, repo["name"], accent)
+    return card(WIDTH, HEIGHT, theme, out, repo["name"])
 
 
 def main():

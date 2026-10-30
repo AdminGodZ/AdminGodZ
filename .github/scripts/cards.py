@@ -117,7 +117,7 @@ def legend(langs, x, y, t, size=12):
     return out
 
 
-def card(width, height, theme, body, label, accent=None):
+def card(width, height, theme, body, label):
     """A rounded card of the given inner size around body, as a complete SVG document."""
     t = THEMES[theme]
     outer_w, outer_h = width + 2 * MARGIN, height + 2 * MARGIN
@@ -125,13 +125,8 @@ def card(width, height, theme, body, label, accent=None):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{outer_w}" height="{outer_h}" '
         f'viewBox="0 0 {outer_w} {outer_h}" role="img" aria-label="{esc(label)}">',
         f"<title>{esc(label)}</title>",
-        f'<clipPath id="card"><rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12"/></clipPath>',
         f'<g transform="translate({MARGIN} {MARGIN})">',
-        f'<g clip-path="url(#card)"><rect width="{width}" height="{height}" fill="{t["bg"]}"/>',
-        # Thin strip along the top edge, e.g. in a project's main language colour.
-        f'<rect width="{width}" height="4" fill="{accent}"/>' if accent else "",
-        "</g>",
-        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="none" stroke="{t["border"]}"/>',
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{t["bg"]}" stroke="{t["border"]}"/>',
         f'<g font-family="{FONT}">',
         *body,
         "</g>",
