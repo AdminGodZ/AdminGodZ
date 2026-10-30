@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="892" height="240" viewBox="0 0 892 240" role="img" aria-label="Overview: 681 commits, 167 prs merged, 1.6M lines pushed, 31 repositories">
-<title>Overview: 681 commits, 167 prs merged, 1.6M lines pushed, 31 repositories</title>
-<clipPath id="card"><rect x="0.5" y="0.5" width="879" height="227" rx="12"/></clipPath>
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="240" viewBox="0 0 892 240" role="img" aria-label="Overview: 682 commits, 168 prs merged, 1.6M lines pushed, 31 repositories">
+<title>Overview: 682 commits, 168 prs merged, 1.6M lines pushed, 31 repositories</title>
 <g transform="translate(6 6)">
-<g clip-path="url(#card)"><rect width="880" height="228" fill="#161b22"/>
-
-</g>
-<rect x="0.5" y="0.5" width="879" height="227" rx="12" fill="none" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="879" height="227" rx="12" fill="#161b22" stroke="#30363d"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <text x="24" y="42" font-size="16" font-weight="600" fill="#e6edf3">Overview</text>
 <path transform="translate(24 68) scale(0.875)" fill="#8b949e" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
 <text x="44" y="80" font-size="13" fill="#8b949e">Commits</text>
-<text x="24" y="118" font-size="30" font-weight="700" fill="#e6edf3">681</text>
+<text x="24" y="118" font-size="30" font-weight="700" fill="#e6edf3">682</text>
 <path transform="translate(232 68) scale(0.875)" fill="#8b949e" d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z"/>
 <text x="252" y="80" font-size="13" fill="#8b949e">PRs merged</text>
-<text x="232" y="118" font-size="30" font-weight="700" fill="#e6edf3">167</text>
+<text x="232" y="118" font-size="30" font-weight="700" fill="#e6edf3">168</text>
 <path transform="translate(440 68) scale(0.875)" fill="#8b949e" d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"/>
 <text x="460" y="80" font-size="13" fill="#8b949e">Lines pushed</text>
 <text x="440" y="118" font-size="30" font-weight="700" fill="#e6edf3">1.6M</text>
@@ -33,16 +29,16 @@
 </g>
 <circle cx="28" cy="210" r="4" fill="#3178c6"/>
 <text x="37" y="214" font-size="13" fill="#e6edf3">TypeScript <tspan fill="#8b949e">51%</tspan></text>
-<circle cx="153.12" cy="210" r="4" fill="#f1e05a"/>
-<text x="162.12" y="214" font-size="13" fill="#e6edf3">JavaScript <tspan fill="#8b949e">22%</tspan></text>
-<circle cx="278.24" cy="210" r="4" fill="#F74C00"/>
-<text x="287.24" y="214" font-size="13" fill="#e6edf3">Rust <tspan fill="#8b949e">16%</tspan></text>
-<circle cx="363.06" cy="210" r="4" fill="#336790"/>
-<text x="372.06" y="214" font-size="13" fill="#e6edf3">PLpgSQL <tspan fill="#8b949e">4%</tspan></text>
-<circle cx="468.94" cy="210" r="4" fill="#663399"/>
-<text x="477.94" y="214" font-size="13" fill="#e6edf3">CSS <tspan fill="#8b949e">2%</tspan></text>
-<circle cx="544.14" cy="210" r="4" fill="#8b949e"/>
-<text x="553.14" y="214" font-size="13" fill="#e6edf3">Other <tspan fill="#8b949e">4%</tspan></text>
+<circle cx="162.53199999999998" cy="210" r="4" fill="#f1e05a"/>
+<text x="171.53199999999998" y="214" font-size="13" fill="#e6edf3">JavaScript <tspan fill="#8b949e">22%</tspan></text>
+<circle cx="297.06399999999996" cy="210" r="4" fill="#F74C00"/>
+<text x="306.06399999999996" y="214" font-size="13" fill="#e6edf3">Rust <tspan fill="#8b949e">16%</tspan></text>
+<circle cx="387.26599999999996" cy="210" r="4" fill="#336790"/>
+<text x="396.26599999999996" y="214" font-size="13" fill="#e6edf3">PLpgSQL <tspan fill="#8b949e">4%</tspan></text>
+<circle cx="500.63399999999996" cy="210" r="4" fill="#663399"/>
+<text x="509.63399999999996" y="214" font-size="13" fill="#e6edf3">CSS <tspan fill="#8b949e">2%</tspan></text>
+<circle cx="580.2539999999999" cy="210" r="4" fill="#8b949e"/>
+<text x="589.2539999999999" y="214" font-size="13" fill="#e6edf3">Other <tspan fill="#8b949e">4%</tspan></text>
 </g>
 </g>
 </svg>
