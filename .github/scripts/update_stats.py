@@ -1,39 +1,22 @@
 #!/usr/bin/env python3
-"""Regenerate the stats block in README.md from the GitHub API.
+"""Render the overview card (assets/cards/overview-*.svg) from the GitHub API.
 
-Counts commits, merged PRs, lines added, and the top languages (weighted by how many
-lines you added in each repo). Needs a token in GH_TOKEN that can read your
-private repos, otherwise only public activity is counted.
+Counts commits, merged PRs, lines added, repos, and the top languages (weighted by
+how many lines you added in each repo). Needs a token in GH_TOKEN that can read
+your private repos, otherwise only public activity is counted.
 """
 import json
 import os
-import re
 import sys
 import time
-import urllib.parse
 import urllib.request
 from collections import Counter
 
+from cards import PAD, THEMES, card, esc, icon, language_bar, language_color, legend, title, write
+
 API = "https://api.github.com"
 TOKEN = os.environ["GH_TOKEN"]
-README = os.environ.get("README", "README.md")
-
-# shields.io colour + simple-icons slug per language; anything else falls back to grey.
-LANGUAGES = {
-    "TypeScript": ("3178C6", "typescript"),
-    "JavaScript": ("F7DF1E", "javascript"),
-    "Rust": ("F74C00", "rust"),
-    "Python": ("3670A0", "python"),
-    "C++": ("00599C", "cplusplus"),
-    "Java": ("ED8B00", "openjdk"),
-    "CSS": ("1572B6", "css3"),
-    "HTML": ("E34F26", "html5"),
-    "PLpgSQL": ("4169E1", "postgresql"),
-    "Shell": ("4EAA25", "gnubash"),
-    "PowerShell": ("5391FE", "powershell"),
-    "Astro": ("BC52EE", "astro"),
-}
-
+WIDTH, HEIGHT = 880, 228
 
 def request(path, body=None):
     req = urllib.request.Request(
@@ -70,24 +53,32 @@ def paginate(query, path, **variables):
 
 
 def collect_repos(login):
-    """Repos you own, recently contributed to, or merged a PR into (forks skipped to avoid double counting)."""
-    repos = {}
-    owned = """query($cursor: String) { viewer { repositories(first: 100, after: $cursor, ownerAffiliations: OWNER) {
-        pageInfo { hasNextPage endCursor } nodes { nameWithOwner isFork } } } }"""
-    contributed = """query($cursor: String) { viewer { repositoriesContributedTo(first: 100, after: $cursor,
-        includeUserRepositories: true, contributionTypes: [COMMIT, PULL_REQUEST]) {
-        pageInfo { hasNextPage endCursor } nodes { nameWithOwner isFork } } } }"""
-    merged = """query($cursor: String, $q: String!) { search(query: $q, type: ISSUE, first: 100, after: $cursor) {
-        pageInfo { hasNextPage endCursor } nodes { ... on PullRequest { repository { nameWithOwner isFork } } } } }"""
+    """Repos you own, recently contributed to, or merged a PR into (forks skipped to avoid double counting).
+
+    Returns the repo names and GitHub's colour for every language seen in them.
+    """
+    repos, colors = {}, {}
+    fields = "nameWithOwner isFork languages(first: 20) { nodes { name color } }"
+    owned = f"""query($cursor: String) {{ viewer {{ repositories(first: 100, after: $cursor, ownerAffiliations: OWNER) {{
+        pageInfo {{ hasNextPage endCursor }} nodes {{ {fields} }} }} }} }}"""
+    contributed = f"""query($cursor: String) {{ viewer {{ repositoriesContributedTo(first: 100, after: $cursor,
+        includeUserRepositories: true, contributionTypes: [COMMIT, PULL_REQUEST]) {{
+        pageInfo {{ hasNextPage endCursor }} nodes {{ {fields} }} }} }} }}"""
+    merged = f"""query($cursor: String, $q: String!) {{ search(query: $q, type: ISSUE, first: 100, after: $cursor) {{
+        pageInfo {{ hasNextPage endCursor }} nodes {{ ... on PullRequest {{ repository {{ {fields} }} }} }} }} }}"""
+
+    def add(repo):
+        repos[repo["nameWithOwner"]] = repo["isFork"]
+        for language in repo["languages"]["nodes"]:
+            colors[language["name"]] = language["color"]
 
     for node in paginate(owned, ["viewer", "repositories"]):
-        repos[node["nameWithOwner"]] = node["isFork"]
+        add(node)
     for node in paginate(contributed, ["viewer", "repositoriesContributedTo"]):
-        repos[node["nameWithOwner"]] = node["isFork"]
+        add(node)
     for node in paginate(merged, ["search"], q=f"author:{login} is:pr is:merged"):
-        repo = node["repository"]
-        repos[repo["nameWithOwner"]] = repo["isFork"]
-    return sorted(name for name, is_fork in repos.items() if not is_fork)
+        add(node["repository"])
+    return sorted(name for name, is_fork in repos.items() if not is_fork), colors
 
 
 def contributor_stats(repo, login):
@@ -114,17 +105,30 @@ def compact(n):
     return str(n)
 
 
-def badge(label, message, color, logo):
-    def escape(text):
-        return urllib.parse.quote(text.replace("-", "--").replace("_", "__").replace(" ", "_"))
+def render(theme, metrics, langs):
+    t = THEMES[theme]
+    out = [title("Overview", t)]
 
-    url = f"https://img.shields.io/badge/{escape(label)}-{escape(message)}-{color}?style=for-the-badge&logo={logo}&logoColor=white"
-    return f'<img alt="{label}: {message}" src="{url}" />'
+    # One column per number: icon and label on top, the value large underneath.
+    column = (WIDTH - 2 * PAD) / len(metrics)
+    for i, (name, label, value) in enumerate(metrics):
+        x = PAD + i * column
+        out.append(icon(name, x, 68, t["muted"]))
+        out.append(f'<text x="{x + 20:.0f}" y="80" font-size="13" fill="{t["muted"]}">{esc(label)}</text>')
+        out.append(f'<text x="{x:.0f}" y="118" font-size="30" font-weight="700" fill="{t["text"]}">{esc(value)}</text>')
+
+    out.append(f'<line x1="{PAD}" y1="142" x2="{WIDTH - PAD}" y2="142" stroke="{t["border"]}"/>')
+    out.append(f'<text x="{PAD}" y="170" font-size="13" fill="{t["muted"]}">Top languages</text>')
+    out += language_bar(langs, PAD, 182, WIDTH - 2 * PAD, t, height=10)
+    out += legend(langs, PAD, 214, t, size=13)
+
+    label = ", ".join(f"{value} {label.lower()}" for _, label, value in metrics)
+    return card(WIDTH, HEIGHT, theme, out, f"Overview: {label}")
 
 
 def main():
     login = graphql("{ viewer { login } }")["viewer"]["login"]
-    repos = collect_repos(login)
+    repos, colors = collect_repos(login)
 
     merged_prs = graphql(
         "query($q: String!) { search(query: $q, type: ISSUE, first: 1) { issueCount } }",
@@ -146,31 +150,25 @@ def main():
             languages[language] += added * size / repo_total
         print(f"{repo}: {commits} commits, +{added}", file=sys.stderr)
 
+    # Top five languages, with the rest grouped into "Other".
     language_total = sum(languages.values()) or 1
-    top = [
-        badge(language, f"{weight / language_total:.0%}", *LANGUAGES.get(language, ("555555", "")))
-        for language, weight in languages.most_common(3)
+    langs = [
+        (name, language_color(name, colors.get(name)), weight / language_total)
+        for name, weight in languages.most_common(5)
     ]
+    rest = 1 - sum(share for _, _, share in langs)
+    if rest >= 0.005:
+        langs.append(("Other", language_color("Other", None), rest))
 
-    block = "\n".join([
-        "<!-- STATS:START -->",
-        '<p align="center">',
-        "  " + badge("Commits", compact(total_commits), "F05032", "git"),
-        "  " + badge("PRs merged", str(merged_prs), "8957E5", "github"),
-        "  " + badge("Lines pushed", compact(total_lines), "2EA44F", "github"),
-        "</p>",
-        '<p align="center">',
-        *("  " + b for b in top),
-        "</p>",
-        "<!-- STATS:END -->",
-    ])
-
-    with open(README) as f:
-        readme = f.read()
-    updated = re.sub(r"<!-- STATS:START -->.*?<!-- STATS:END -->", lambda _: block, readme, flags=re.S)
-    with open(README, "w") as f:
-        f.write(updated)
-    print(f"{total_commits} commits, {merged_prs} merged PRs, {total_lines} lines, top: {languages.most_common(3)}", file=sys.stderr)
+    metrics = [
+        ("commit", "Commits", compact(total_commits)),
+        ("merge", "PRs merged", compact(merged_prs)),
+        ("code", "Lines pushed", compact(total_lines)),
+        ("repo", "Repositories", str(len(repos))),
+    ]
+    write("assets/cards/overview", lambda theme: render(theme, metrics, langs))
+    print(f"{total_commits} commits, {merged_prs} merged PRs, {total_lines} lines, {len(repos)} repos, "
+          f"top: {languages.most_common(5)}", file=sys.stderr)
 
 
 if __name__ == "__main__":
