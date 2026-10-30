@@ -1,10 +1,5 @@
-<h1 align="center">AdminGod</h1>
-
 <p align="center">
-  <a href="https://admingod.ch"><b>admingod.ch</b></a>
-</p>
-
-<p align="center">
+  <a href="https://admingod.ch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/header-dark.svg" /><img alt="AdminGod · admingod.ch" src="assets/cards/header-light.svg" width="99.8%" /></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/overview-dark.svg" /><img alt="Overview: commits, merged PRs, lines pushed, repositories and top languages" src="assets/cards/overview-light.svg" width="99.8%" /></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack-dark.svg" /><img alt="Stack. Devices: Arch Linux, macOS; Languages: TypeScript, Rust, Python; Frameworks: Next.js, React, Actix Web" src="assets/cards/stack-light.svg" width="99.8%" /></picture>
 </p>

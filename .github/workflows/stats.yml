@@ -36,6 +36,11 @@ jobs:
       - name: Render stack card
         run: python .github/scripts/render_stack.py
 
+      - name: Render header card
+        run: python .github/scripts/render_header.py
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
