@@ -1,9 +1,23 @@
-# 💻 Tech Stack:
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+<h1 align="center">AdminGod</h1>
 
-<h2>Snake</h2>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AdminGodZ/AdminGodZ/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <a href="https://admingod.ch"><b>admingod.ch</b></a>
+</p>
+
+<!-- STATS:START -->
+<p align="center">
+  <img alt="PRs merged: 164" src="https://img.shields.io/badge/PRs_merged-164-8957E5?style=for-the-badge&logo=github&logoColor=white" />
+  <img alt="Lines pushed: 1.6M" src="https://img.shields.io/badge/Lines_pushed-1.6M-2EA44F?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+<p align="center">
+  <img alt="TypeScript: 51%" src="https://img.shields.io/badge/TypeScript-51%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="JavaScript: 22%" src="https://img.shields.io/badge/JavaScript-22%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img alt="Rust: 16%" src="https://img.shields.io/badge/Rust-16%25-000000?style=for-the-badge&logo=rust&logoColor=white" />
+</p>
+<!-- STATS:END -->
+
+<h2 align="center">Technologies</h2>
+
+<p align="center">
+  <!-- TODO: technologies -->
+</p>
