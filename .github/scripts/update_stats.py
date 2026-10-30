@@ -22,7 +22,7 @@ README = os.environ.get("README", "README.md")
 LANGUAGES = {
     "TypeScript": ("3178C6", "typescript"),
     "JavaScript": ("F7DF1E", "javascript"),
-    "Rust": ("000000", "rust"),
+    "Rust": ("F74C00", "rust"),
     "Python": ("3670A0", "python"),
     "C++": ("00599C", "cplusplus"),
     "Java": ("ED8B00", "openjdk"),

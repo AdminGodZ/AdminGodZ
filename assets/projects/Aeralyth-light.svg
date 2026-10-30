@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="196" viewBox="0 0 440 196" role="img" aria-label="Aeralyth">
+<title>Aeralyth</title>
+<defs><clipPath id="card"><rect x="0.5" y="0.5" width="439" height="195" rx="12"/></clipPath><clipPath id="bar"><rect x="24" y="118" width="392" height="8" rx="4"/></clipPath></defs>
+<g clip-path="url(#card)">
+<rect width="440" height="196" fill="#ffffff"/>
+<rect width="440" height="4" fill="#F74C00"/>
+</g>
+<rect x="0.5" y="0.5" width="439" height="195" rx="12" fill="none" stroke="#d0d7de"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<path transform="translate(24 29) scale(1.0)" fill="#59636e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+<text x="48" y="42" font-size="17" font-weight="600" fill="#0969da">Aeralyth</text>
+<rect x="367.78" y="27" width="48" height="20" rx="10" fill="none" stroke="#1a7f37"/>
+<circle cx="378.78" cy="37" r="3" fill="#1a7f37"/>
+<text x="386" y="41" font-size="11" font-weight="600" fill="#1a7f37">Live</text>
+<text x="24" y="72" font-size="13" fill="#1f2328">A modern self-hostable cloud platform focused on performance,</text>
+<text x="24" y="92" font-size="13" fill="#1f2328">security, and simplicity.</text>
+<g clip-path="url(#bar)"><rect x="24" y="118" width="392" height="8" fill="#eaeef2"/>
+<rect x="24.0" y="118" width="160.0" height="8" fill="#F74C00"/>
+<rect x="183.5" y="118" width="151.8" height="8" fill="#3178c6"/>
+<rect x="334.9" y="118" width="43.4" height="8" fill="#336790"/>
+<rect x="377.7" y="118" width="38.8" height="8" fill="#8b949e"/>
+</g>
+<circle cx="28" cy="144" r="4" fill="#F74C00"/>
+<text x="37" y="148" font-size="12" fill="#1f2328">Rust <tspan fill="#59636e">41%</tspan></text>
+<circle cx="106.68" cy="144" r="4" fill="#3178c6"/>
+<text x="115.68" y="148" font-size="12" fill="#1f2328">TypeScript <tspan fill="#59636e">39%</tspan></text>
+<circle cx="222.56" cy="144" r="4" fill="#336790"/>
+<text x="231.56" y="148" font-size="12" fill="#1f2328">PLpgSQL <tspan fill="#59636e">11%</tspan></text>
+<circle cx="328.36" cy="144" r="4" fill="#8b949e"/>
+<text x="337.36" y="148" font-size="12" fill="#1f2328">Other <tspan fill="#59636e">10%</tspan></text>
+<path transform="translate(24 165) scale(0.875)" fill="#59636e" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
+<text x="43" y="176" font-size="12" fill="#59636e">158 commits</text>
+<path transform="translate(132.67999999999998 165) scale(0.875)" fill="#59636e" d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"/>
+<text x="151.67999999999998" y="176" font-size="12" fill="#59636e">Oct 2026</text>
+<text x="416" y="176" font-size="12" text-anchor="end" fill="#0969da">cloud.admingod.ch</text>
+<path transform="translate(294.64 165) scale(0.875)" fill="#0969da" d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"/>
+</g>
+</svg>
