@@ -55,9 +55,9 @@ def paginate(query, path, **variables):
 def collect_repos(login):
     """Repos you own, recently contributed to, or merged a PR into (forks skipped to avoid double counting).
 
-    Returns the repo names and GitHub's colour for every language seen in them.
+    Returns the repo names, the subset you own, and GitHub's colour for every language seen in them.
     """
-    repos, colors = {}, {}
+    repos, owned_names, colors = {}, set(), {}
     fields = "nameWithOwner isFork languages(first: 20) { nodes { name color } }"
     owned = f"""query($cursor: String) {{ viewer {{ repositories(first: 100, after: $cursor, ownerAffiliations: OWNER) {{
         pageInfo {{ hasNextPage endCursor }} nodes {{ {fields} }} }} }} }}"""
@@ -74,11 +74,13 @@ def collect_repos(login):
 
     for node in paginate(owned, ["viewer", "repositories"]):
         add(node)
+        owned_names.add(node["nameWithOwner"])
     for node in paginate(contributed, ["viewer", "repositoriesContributedTo"]):
         add(node)
     for node in paginate(merged, ["search"], q=f"author:{login} is:pr is:merged"):
         add(node["repository"])
-    return sorted(name for name, is_fork in repos.items() if not is_fork), colors
+    names = sorted(name for name, is_fork in repos.items() if not is_fork)
+    return names, [name for name in names if name in owned_names], colors
 
 
 def contributor_stats(repo, login):
@@ -128,7 +130,7 @@ def render(theme, metrics, langs):
 
 def main():
     login = graphql("{ viewer { login } }")["viewer"]["login"]
-    repos, colors = collect_repos(login)
+    repos, owned_repos, colors = collect_repos(login)
 
     merged_prs = graphql(
         "query($q: String!) { search(query: $q, type: ISSUE, first: 1) { issueCount } }",
@@ -164,10 +166,11 @@ def main():
         ("commit", "Commits", compact(total_commits)),
         ("merge", "PRs merged", compact(merged_prs)),
         ("code", "Lines pushed", compact(total_lines)),
-        ("repo", "Repositories", str(len(repos))),
+        # Only your own repos, to match the count on your GitHub profile.
+        ("repo", "Repositories", str(len(owned_repos))),
     ]
     write("assets/cards/overview", lambda theme: render(theme, metrics, langs))
-    print(f"{total_commits} commits, {merged_prs} merged PRs, {total_lines} lines, {len(repos)} repos, "
+    print(f"{total_commits} commits, {merged_prs} merged PRs, {total_lines} lines, {len(owned_repos)} repos, "
           f"top: {languages.most_common(5)}", file=sys.stderr)
 
 
