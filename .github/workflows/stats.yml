@@ -1,7 +1,7 @@
 name: Update README stats and projects
 
 on:
-  # Refresh the stats and project cards daily at 01:00 UTC
+  # Refresh the stats, calendar and project cards daily at 01:00 UTC
   schedule:
     - cron: "0 1 * * *"
   workflow_dispatch:
@@ -25,6 +25,11 @@ jobs:
       # STATS_TOKEN is a personal access token with `repo` scope so private repos are counted
       - name: Regenerate overview card
         run: python .github/scripts/update_stats.py
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Regenerate contribution calendar
+        run: python .github/scripts/render_calendar.py
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN }}
 
