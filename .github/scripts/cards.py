@@ -22,15 +22,45 @@ OTHER_COLOR = "#8b949e"
 THEMES = {
     "dark": {
         "bg": "#161b22", "border": "#30363d", "title": "#58a6ff", "text": "#e6edf3",
-        "muted": "#8b949e", "track": "#30363d", "live": "#3fb950",
+        "muted": "#8b949e", "track": "#30363d", "live": "#3fb950", "accent": "#a371f7",
+        # Contribution calendar, from no contributions to the most.
+        "levels": ["#21262d", "#3a2d63", "#5a3fa0", "#8a63d2", "#c4a5ff"],
     },
     "light": {
         "bg": "#ffffff", "border": "#d0d7de", "title": "#0969da", "text": "#1f2328",
-        "muted": "#59636e", "track": "#eaeef2", "live": "#1a7f37",
+        "muted": "#59636e", "track": "#eaeef2", "live": "#1a7f37", "accent": "#8250df",
+        "levels": ["#eff2f5", "#e0d4fb", "#c0a3f3", "#9365e0", "#6639ba"],
     },
 }
 
+# Animations shared by every animated card. They play once when the README loads, apart from
+# the ambient ones (pulse, glows), and are switched off for visitors who ask for reduced motion.
+# Never put an animated class on an element that has its own transform attribute: the CSS
+# transform would replace it. Wrap such elements in a <g> instead.
+#   in     fade and slide up       grow   grow from the left edge
+#   pulse  ripple ring, forever    motion hidden when motion is reduced (for SMIL animations)
+ANIMATIONS = """
+.in{animation:fade-up .8s cubic-bezier(.2,.7,.2,1) backwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(10px)}}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) backwards}
+@keyframes grow{from{transform:scaleX(0)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(3.2);opacity:0}}
+"""
+REDUCED_MOTION = "@media (prefers-reduced-motion:reduce){*{animation:none!important}.motion{display:none}}"
+
 esc = html.escape
+
+
+def delay(seconds):
+    """Attribute that starts an element's animation later, for staggered entrances."""
+    return f' style="animation-delay:{seconds:.2f}s"'
+
+
+def live_dot(cx, cy, r, color):
+    """A dot with a ring rippling out of it."""
+    return (f'<circle class="pulse" cx="{cx:g}" cy="{cy:g}" r="{r:g}" fill="{color}"/>'
+            f'<circle cx="{cx:g}" cy="{cy:g}" r="{r:g}" fill="{color}"/>')
 
 
 def language_color(name, color):
@@ -92,39 +122,58 @@ def title(text, t):
     return f'<text x="{PAD}" y="42" font-size="16" font-weight="600" fill="{t["text"]}">{esc(text)}</text>'
 
 
-def language_bar(langs, x, y, width, t, height=8):
-    """Stacked bar of (name, colour, share) tuples on a rounded track."""
+def language_bar(langs, x, y, width, t, height=8, start=0.0, sheen=False):
+    """Stacked bar of (name, colour, share) tuples on a rounded track, growing in from the left.
+
+    With sheen, a soft highlight sweeps across it every few seconds.
+    """
     out = [
         f'<clipPath id="bar{y}"><rect x="{x}" y="{y}" width="{width}" height="{height}" rx="{height / 2:g}"/></clipPath>',
         f'<g clip-path="url(#bar{y})"><rect x="{x}" y="{y}" width="{width}" height="{height}" fill="{t["track"]}"/>',
+        f'<g class="grow"{delay(start)}>',
     ]
+    left = x
     for _, color, share in langs:
         out.append(f'<rect x="{x:.1f}" y="{y}" width="{share * width + 0.5:.1f}" height="{height}" fill="{color}"/>')
         x += share * width
     out.append("</g>")
+    if sheen:
+        out.append(
+            f'<linearGradient id="sheen{y}"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
+            f'<stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>'
+            f'<style>.sheen{y}{{animation:sheen{y} 4.5s ease-in-out {start + 1.6:.1f}s infinite}}'
+            f'@keyframes sheen{y}{{0%{{transform:translateX(0)}}40%,100%{{transform:translateX({width + 200:.0f}px)}}}}</style>'
+            f'<rect class="sheen{y}" x="{left - 120}" y="{y}" width="80" height="{height}" fill="url(#sheen{y})"/>'
+        )
+    out.append("</g>")
     return out
 
 
-def legend(langs, x, y, t, size=12):
-    """Coloured dot, name and share for each language, laid out left to right."""
+def legend(langs, x, y, t, size=12, start=0.0):
+    """Coloured dot, name and share for each language, laid out left to right and fading in one by one."""
     out = []
-    for name, color, share in langs:
+    for i, (name, color, share) in enumerate(langs):
         percent = f"{share:.0%}" if share >= 0.005 else ""
-        out.append(f'<circle cx="{x + 4}" cy="{y - 4}" r="4" fill="{color}"/>')
-        out.append(f'<text x="{x + 13}" y="{y}" font-size="{size}" fill="{t["text"]}">{esc(name)} '
-                   f'<tspan fill="{t["muted"]}">{percent}</tspan></text>')
+        out.append(f'<g class="in"{delay(start + i * 0.08)}><circle cx="{x + 4}" cy="{y - 4}" r="4" fill="{color}"/>'
+                   f'<text x="{x + 13}" y="{y}" font-size="{size}" fill="{t["text"]}">{esc(name)} '
+                   f'<tspan fill="{t["muted"]}">{percent}</tspan></text></g>')
         x += 13 + text_width(f"{name} {percent}", size) + 18
     return out
 
 
-def card(width, height, theme, body, label):
-    """A rounded card of the given inner size around body, as a complete SVG document."""
+def card(width, height, theme, body, label, css=None):
+    """A rounded card of the given inner size around body, as a complete SVG document.
+
+    Pass css (even empty) to animate the card: it gets the shared ANIMATIONS plus css.
+    """
     t = THEMES[theme]
     outer_w, outer_h = width + 2 * MARGIN, height + 2 * MARGIN
+    style = [f"<style>{ANIMATIONS}{css}{REDUCED_MOTION}</style>"] if css is not None else []
     return "\n".join([
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{outer_w}" height="{outer_h}" '
         f'viewBox="0 0 {outer_w} {outer_h}" role="img" aria-label="{esc(label)}">',
         f"<title>{esc(label)}</title>",
+        *style,
         f'<g transform="translate({MARGIN} {MARGIN})">',
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{t["bg"]}" stroke="{t["border"]}"/>',
         f'<g font-family="{FONT}">',
