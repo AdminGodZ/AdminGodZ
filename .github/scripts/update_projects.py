@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Render a card for every public repo you own and list them in README.md.
+"""Render a card for every public repo you own and list them in README.md, biggest codebase first.
 
 Each card shows the last six months of commits as a sparkline that draws itself in. On the first
-FEATURED cards, the most recently pushed repos, a light also sweeps around the border.
+FEATURED cards, the biggest repos, a light also sweeps around the border.
 """
 import json
 import os
@@ -221,7 +221,9 @@ def render(repo, theme, weeks, featured):
 
 
 def main():
-    repos = fetch_repos()
+    # Biggest codebase first, by GitHub's count of code bytes (vendored and generated files excluded).
+    # Repos of the same size keep the most recently pushed first.
+    repos = sorted(fetch_repos(), key=lambda repo: -repo["languages"]["totalSize"])
 
     # Start from an empty folder so cards of deleted or now-private repos disappear.
     shutil.rmtree(CARDS_DIR, ignore_errors=True)
