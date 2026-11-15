@@ -33,6 +33,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN }}
 
+      # Counts each project's lines of code to rank it into a tier
+      - name: Install cloc
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq cloc
+
       - name: Regenerate project cards
         run: python .github/scripts/update_projects.py
         env:
