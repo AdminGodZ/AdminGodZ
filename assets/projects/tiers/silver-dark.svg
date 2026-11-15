@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="46" viewBox="0 0 892 46" role="img" aria-label="Silver: 1k–2.5k lines · 3 projects"><title>Silver: 1k–2.5k lines · 3 projects</title>
+<style>
+.in{animation:fade-up .8s cubic-bezier(.2,.7,.2,1) backwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(10px)}}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) backwards}
+@keyframes grow{from{transform:scaleX(0)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(3.2);opacity:0}}
+
+.draw{animation:draw 2s cubic-bezier(.4,0,.2,1) .4s backwards}
+@keyframes draw{from{stroke-dashoffset:1}}
+.late{animation:fade 1s 1.6s backwards}
+@keyframes fade{from{opacity:0}}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.6,.5,1) .15s backwards}
+@keyframes pop{from{transform:scale(0) rotate(-25deg);opacity:0}}
+.glint{animation:glint 3.5s ease-in-out 1.2s infinite}
+@keyframes glint{0%{transform:translateX(0)}35%,100%{transform:translateX(40px)}}
+.sparkle{transform-box:fill-box;transform-origin:center;animation:sparkle 2.4s ease-in-out infinite}
+@keyframes sparkle{0%,100%{opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1)}}
+.breathe{animation:breathe 4s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.motion{display:none}}</style>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#b4c0cc" stop-opacity=".6"/><stop offset="1" stop-color="#b4c0cc" stop-opacity="0"/></linearGradient>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<g class="pop"><linearGradient id="emblem0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f7fa"/><stop offset=".55" stop-color="#b4c0cc"/><stop offset="1" stop-color="#6e7b88"/></linearGradient><g transform="translate(10 12) scale(0.916667)"><circle cx="12" cy="12" r="9.5" fill="url(#emblem0)"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-opacity=".5" stroke-width=".8" fill="none" stroke-linejoin="round"/><path d="M12 8.2l1.1 2.4 2.5.2-1.9 1.7.6 2.5L12 13.7 9.7 15l.6-2.5-1.9-1.7 2.5-.2z" fill="#fff" fill-opacity=".75"/></g></g>
+<text class="in" x="42" y="30" font-size="17" font-weight="600" fill="#b4c0cc">Silver <tspan dx="4" font-size="13" font-weight="400" fill="#8b949e">1k–2.5k lines · 3 projects</tspan></text>
+<rect class="grow" style="animation-delay:0.30s" x="272" y="23" width="614" height="1" fill="url(#fade)"/>
+</g></svg>

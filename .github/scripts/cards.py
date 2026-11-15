@@ -118,6 +118,15 @@ def wrap(text, size, max_width, max_lines):
     return lines
 
 
+def ellipsize(text, size, max_width):
+    """text, cut short with an ellipsis if it would be wider than max_width."""
+    if text_width(text, size) <= max_width:
+        return text
+    while text and text_width(text + "…", size) > max_width:
+        text = text[:-1]
+    return text.rstrip(" -_") + "…"
+
+
 def title(text, t):
     return f'<text x="{PAD}" y="42" font-size="16" font-weight="600" fill="{t["text"]}">{esc(text)}</text>'
 
