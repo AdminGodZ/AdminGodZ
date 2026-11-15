@@ -1,9 +1,9 @@
 name: Update README stats and projects
 
 on:
-  # Refresh the stats, calendar and project cards daily at 01:00 UTC
+  # Refresh the stats, calendar and project cards every 3 hours
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
