@@ -401,7 +401,8 @@
 <rect class="cell" x="843.2" y="84.0" width="12.8" height="12.8" rx="2.5" fill="#5a3fa0" style="animation-delay:1.04s"/>
 <rect class="cell" x="843.2" y="99.8" width="12.8" height="12.8" rx="2.5" fill="#3a2d63" style="animation-delay:1.06s"/>
 <rect class="cell" x="843.2" y="115.5" width="12.8" height="12.8" rx="2.5" fill="#3a2d63" style="animation-delay:1.08s"/>
-<rect class="cell today" x="843.2" y="131.3" width="12.8" height="12.8" rx="2.5" fill="#3a2d63" style="animation-delay:1.10s"/>
+<rect class="cell" x="843.2" y="131.3" width="12.8" height="12.8" rx="2.5" fill="#3a2d63" style="animation-delay:1.10s"/>
+<rect class="cell today" x="843.2" y="147.0" width="12.8" height="12.8" rx="2.5" fill="#3a2d63" style="animation-delay:1.12s"/>
 <text x="778" y="210" font-size="11" text-anchor="end" fill="#8b949e">Less</text>
 <rect x="784" y="200" width="11" height="11" rx="2.5" fill="#21262d"/>
 <rect x="799" y="200" width="11" height="11" rx="2.5" fill="#3a2d63"/>
