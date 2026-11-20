@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="892" height="46" viewBox="0 0 892 46" role="img" aria-label="Bronze: 1–1k lines · 7 projects"><title>Bronze: 1–1k lines · 7 projects</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="46" viewBox="0 0 892 46" role="img" aria-label="Bronze: 1–1k lines · 8 projects"><title>Bronze: 1–1k lines · 8 projects</title>
 <style>
 .in{animation:fade-up .8s cubic-bezier(.2,.7,.2,1) backwards}
 @keyframes fade-up{from{opacity:0;transform:translateY(10px)}}
@@ -23,6 +23,6 @@
 <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#8a4b20" stop-opacity=".6"/><stop offset="1" stop-color="#8a4b20" stop-opacity="0"/></linearGradient>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <g class="pop"><linearGradient id="emblem0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2c29b"/><stop offset=".55" stop-color="#cd8a55"/><stop offset="1" stop-color="#8a4b20"/></linearGradient><g transform="translate(10 12) scale(0.916667)"><circle cx="12" cy="12" r="9.5" fill="url(#emblem0)"/><circle cx="12" cy="12" r="6.5" stroke="#fff" stroke-opacity=".5" stroke-width=".8" fill="none" stroke-linejoin="round"/><path d="M12 8.2l1.1 2.4 2.5.2-1.9 1.7.6 2.5L12 13.7 9.7 15l.6-2.5-1.9-1.7 2.5-.2z" fill="#fff" fill-opacity=".75"/></g></g>
-<text class="in" x="42" y="30" font-size="17" font-weight="600" fill="#8a4b20">Bronze <tspan dx="4" font-size="13" font-weight="400" fill="#59636e">1–1k lines · 7 projects</tspan></text>
+<text class="in" x="42" y="30" font-size="17" font-weight="600" fill="#8a4b20">Bronze <tspan dx="4" font-size="13" font-weight="400" fill="#59636e">1–1k lines · 8 projects</tspan></text>
 <rect class="grow" style="animation-delay:0.30s" x="261" y="23" width="625" height="1" fill="url(#fade)"/>
 </g></svg>

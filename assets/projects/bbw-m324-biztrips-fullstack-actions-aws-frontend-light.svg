@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="452" height="292" viewBox="0 0 452 292" role="img" aria-label="bbw-m324-biztrips-fullstack-actions-aws-frontend, Bronze tier, 518 lines of code">
-<title>bbw-m324-biztrips-fullstack-actions-aws-frontend, Bronze tier, 518 lines of code</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="452" height="292" viewBox="0 0 452 292" role="img" aria-label="bbw-m324-biztrips-fullstack-actions-aws-frontend, Bronze tier, 848 lines of code">
+<title>bbw-m324-biztrips-fullstack-actions-aws-frontend, Bronze tier, 848 lines of code</title>
 <style>
 .in{animation:fade-up .8s cubic-bezier(.2,.7,.2,1) backwards}
 @keyframes fade-up{from{opacity:0;transform:translateY(10px)}}
@@ -29,31 +29,31 @@
 <g class="in" style="animation-delay:0.30s"><rect x="324" y="28" width="54" height="20" rx="10" fill="#8a4b20" fill-opacity=".1" stroke="#8a4b20" stroke-opacity=".5"/><text x="331" y="42" font-size="11" font-weight="600" fill="#8a4b20">Bronze</text></g>
 <text class="in" style="animation-delay:0.10s" x="24" y="74" font-size="13" fill="#1f2328">M324 RefCard03–04: React frontend, Docker Hub and</text>
 <text class="in" style="animation-delay:0.10s" x="24" y="94" font-size="13" fill="#1f2328">GitHub Actions</text>
-<g class="in" style="animation-delay:0.20s"><text x="24" y="126" font-size="18" font-weight="700" fill="#1f2328">518 <tspan font-size="12" font-weight="400" fill="#59636e">lines</tspan></text><text x="416" y="126" font-size="11" text-anchor="end" fill="#59636e">482 to Silver</text></g>
-<linearGradient id="progress"><stop offset="0" stop-color="#8a4b20"/><stop offset=".6" stop-color="#cd8a55"/><stop offset="1" stop-color="#f2c29b"/></linearGradient><rect x="24" y="134" width="392" height="4" rx="2" fill="#eaeef2"/><rect class="grow" style="animation-delay:0.40s" x="24" y="134" width="354.7" height="4" rx="2" fill="url(#progress)"/>
+<g class="in" style="animation-delay:0.20s"><text x="24" y="126" font-size="18" font-weight="700" fill="#1f2328">848 <tspan font-size="12" font-weight="400" fill="#59636e">lines</tspan></text><text x="416" y="126" font-size="11" text-anchor="end" fill="#59636e">152 to Silver</text></g>
+<linearGradient id="progress"><stop offset="0" stop-color="#8a4b20"/><stop offset=".6" stop-color="#cd8a55"/><stop offset="1" stop-color="#f2c29b"/></linearGradient><rect x="24" y="134" width="392" height="4" rx="2" fill="#eaeef2"/><rect class="grow" style="animation-delay:0.40s" x="24" y="134" width="382.6" height="4" rx="2" fill="url(#progress)"/>
 <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8250df" stop-opacity=".3"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></linearGradient>
-<text class="in" style="animation-delay:0.20s" x="416" y="158" font-size="11" text-anchor="end" fill="#59636e">6 commits in 6 months</text>
-<path class="late" d="M24.0 196.0 C26.6 196.0 34.5 196.0 39.7 196.0 C44.9 196.0 50.1 196.0 55.4 196.0 C60.6 196.0 65.8 196.0 71.0 196.0 C76.3 196.0 81.5 196.0 86.7 196.0 C91.9 196.0 97.2 196.0 102.4 196.0 C107.6 196.0 112.9 196.0 118.1 196.0 C123.3 196.0 128.5 196.0 133.8 196.0 C139.0 196.0 144.2 196.0 149.4 196.0 C154.7 196.0 159.9 196.0 165.1 196.0 C170.3 196.0 175.6 196.0 180.8 196.0 C186.0 196.0 191.3 196.0 196.5 196.0 C201.7 196.0 206.9 196.0 212.2 196.0 C217.4 196.0 222.6 196.0 227.8 196.0 C233.1 196.0 238.3 196.0 243.5 196.0 C248.7 191.3 254.0 168.0 259.2 168.0 C264.4 168.0 269.7 191.3 274.9 196.0 C280.1 196.0 285.3 196.0 290.6 196.0 C295.8 196.0 301.0 196.0 306.2 196.0 C311.5 196.0 316.7 196.0 321.9 196.0 C327.1 196.0 332.4 196.0 337.6 196.0 C342.8 196.0 348.1 196.0 353.3 196.0 C358.5 196.0 363.7 196.0 369.0 196.0 C374.2 191.3 379.4 168.0 384.6 168.0 C389.9 168.0 395.1 191.3 400.3 196.0 C405.5 196.0 413.4 196.0 416.0 196.0 L416.0 196 L24 196Z" fill="url(#area)"/>
-<path class="draw" d="M24.0 196.0 C26.6 196.0 34.5 196.0 39.7 196.0 C44.9 196.0 50.1 196.0 55.4 196.0 C60.6 196.0 65.8 196.0 71.0 196.0 C76.3 196.0 81.5 196.0 86.7 196.0 C91.9 196.0 97.2 196.0 102.4 196.0 C107.6 196.0 112.9 196.0 118.1 196.0 C123.3 196.0 128.5 196.0 133.8 196.0 C139.0 196.0 144.2 196.0 149.4 196.0 C154.7 196.0 159.9 196.0 165.1 196.0 C170.3 196.0 175.6 196.0 180.8 196.0 C186.0 196.0 191.3 196.0 196.5 196.0 C201.7 196.0 206.9 196.0 212.2 196.0 C217.4 196.0 222.6 196.0 227.8 196.0 C233.1 196.0 238.3 196.0 243.5 196.0 C248.7 191.3 254.0 168.0 259.2 168.0 C264.4 168.0 269.7 191.3 274.9 196.0 C280.1 196.0 285.3 196.0 290.6 196.0 C295.8 196.0 301.0 196.0 306.2 196.0 C311.5 196.0 316.7 196.0 321.9 196.0 C327.1 196.0 332.4 196.0 337.6 196.0 C342.8 196.0 348.1 196.0 353.3 196.0 C358.5 196.0 363.7 196.0 369.0 196.0 C374.2 191.3 379.4 168.0 384.6 168.0 C389.9 168.0 395.1 191.3 400.3 196.0 C405.5 196.0 413.4 196.0 416.0 196.0" pathLength="1" stroke-dasharray="1" fill="none" stroke="#8250df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<g class="late"><circle class="pulse" cx="416" cy="196" r="3.5" fill="#8250df"/><circle cx="416" cy="196" r="3.5" fill="#8250df"/></g>
+<text class="in" style="animation-delay:0.20s" x="416" y="158" font-size="11" text-anchor="end" fill="#59636e">12 commits in 6 months</text>
+<path class="late" d="M24.0 196.0 C26.6 196.0 34.5 196.0 39.7 196.0 C44.9 196.0 50.1 196.0 55.4 196.0 C60.6 196.0 65.8 196.0 71.0 196.0 C76.3 196.0 81.5 196.0 86.7 196.0 C91.9 196.0 97.2 196.0 102.4 196.0 C107.6 196.0 112.9 196.0 118.1 196.0 C123.3 196.0 128.5 196.0 133.8 196.0 C139.0 196.0 144.2 196.0 149.4 196.0 C154.7 196.0 159.9 196.0 165.1 196.0 C170.3 196.0 175.6 196.0 180.8 196.0 C186.0 196.0 191.3 196.0 196.5 196.0 C201.7 196.0 206.9 196.0 212.2 196.0 C217.4 196.0 222.6 196.0 227.8 196.0 C233.1 196.0 238.3 196.0 243.5 196.0 C248.7 193.7 254.0 182.0 259.2 182.0 C264.4 182.0 269.7 193.7 274.9 196.0 C280.1 196.0 285.3 196.0 290.6 196.0 C295.8 196.0 301.0 196.0 306.2 196.0 C311.5 196.0 316.7 196.0 321.9 196.0 C327.1 196.0 332.4 196.0 337.6 196.0 C342.8 196.0 348.1 196.0 353.3 196.0 C358.5 196.0 363.7 196.0 369.0 196.0 C374.2 193.7 379.4 182.0 384.6 182.0 C389.9 182.0 395.1 196.0 400.3 196.0 C405.5 193.7 413.4 172.7 416.0 168.0 L416.0 196 L24 196Z" fill="url(#area)"/>
+<path class="draw" d="M24.0 196.0 C26.6 196.0 34.5 196.0 39.7 196.0 C44.9 196.0 50.1 196.0 55.4 196.0 C60.6 196.0 65.8 196.0 71.0 196.0 C76.3 196.0 81.5 196.0 86.7 196.0 C91.9 196.0 97.2 196.0 102.4 196.0 C107.6 196.0 112.9 196.0 118.1 196.0 C123.3 196.0 128.5 196.0 133.8 196.0 C139.0 196.0 144.2 196.0 149.4 196.0 C154.7 196.0 159.9 196.0 165.1 196.0 C170.3 196.0 175.6 196.0 180.8 196.0 C186.0 196.0 191.3 196.0 196.5 196.0 C201.7 196.0 206.9 196.0 212.2 196.0 C217.4 196.0 222.6 196.0 227.8 196.0 C233.1 196.0 238.3 196.0 243.5 196.0 C248.7 193.7 254.0 182.0 259.2 182.0 C264.4 182.0 269.7 193.7 274.9 196.0 C280.1 196.0 285.3 196.0 290.6 196.0 C295.8 196.0 301.0 196.0 306.2 196.0 C311.5 196.0 316.7 196.0 321.9 196.0 C327.1 196.0 332.4 196.0 337.6 196.0 C342.8 196.0 348.1 196.0 353.3 196.0 C358.5 196.0 363.7 196.0 369.0 196.0 C374.2 193.7 379.4 182.0 384.6 182.0 C389.9 182.0 395.1 196.0 400.3 196.0 C405.5 193.7 413.4 172.7 416.0 168.0" pathLength="1" stroke-dasharray="1" fill="none" stroke="#8250df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g class="late"><circle class="pulse" cx="416" cy="168" r="3.5" fill="#8250df"/><circle cx="416" cy="168" r="3.5" fill="#8250df"/></g>
 <clipPath id="bar210"><rect x="24" y="210" width="392" height="8" rx="4"/></clipPath>
 <g clip-path="url(#bar210)"><rect x="24" y="210" width="392" height="8" fill="#eaeef2"/>
 <g class="grow" style="animation-delay:0.30s">
-<rect x="24.0" y="210" width="258.0" height="8" fill="#f1e05a"/>
-<rect x="281.5" y="210" width="82.3" height="8" fill="#3572A5"/>
-<rect x="363.3" y="210" width="22.0" height="8" fill="#663399"/>
-<rect x="384.8" y="210" width="31.7" height="8" fill="#8b949e"/>
+<rect x="24.0" y="210" width="234.2" height="8" fill="#f1e05a"/>
+<rect x="257.7" y="210" width="120.2" height="8" fill="#3572A5"/>
+<rect x="377.3" y="210" width="16.9" height="8" fill="#384d54"/>
+<rect x="393.7" y="210" width="22.8" height="8" fill="#8b949e"/>
 </g>
 </g>
-<g class="in" style="animation-delay:0.80s"><circle cx="28" cy="234" r="4" fill="#f1e05a"/><text x="37" y="238" font-size="12" fill="#1f2328">JavaScript <tspan fill="#59636e">66%</tspan></text></g>
-<g class="in" style="animation-delay:0.88s"><circle cx="154.56799999999998" cy="234" r="4" fill="#3572A5"/><text x="163.56799999999998" y="238" font-size="12" fill="#1f2328">Python <tspan fill="#59636e">21%</tspan></text></g>
-<g class="in" style="animation-delay:0.96s"><circle cx="254.47199999999998" cy="234" r="4" fill="#663399"/><text x="263.472" y="238" font-size="12" fill="#1f2328">CSS <tspan fill="#59636e">5%</tspan></text></g>
-<g class="in" style="animation-delay:1.04s"><circle cx="330.352" cy="234" r="4" fill="#8b949e"/><text x="339.352" y="238" font-size="12" fill="#1f2328">Other <tspan fill="#59636e">8%</tspan></text></g>
+<g class="in" style="animation-delay:0.80s"><circle cx="28" cy="234" r="4" fill="#f1e05a"/><text x="37" y="238" font-size="12" fill="#1f2328">JavaScript <tspan fill="#59636e">60%</tspan></text></g>
+<g class="in" style="animation-delay:0.88s"><circle cx="154.56799999999998" cy="234" r="4" fill="#3572A5"/><text x="163.56799999999998" y="238" font-size="12" fill="#1f2328">Python <tspan fill="#59636e">31%</tspan></text></g>
+<g class="in" style="animation-delay:0.96s"><circle cx="254.47199999999998" cy="234" r="4" fill="#384d54"/><text x="263.472" y="238" font-size="12" fill="#1f2328">Dockerfile <tspan fill="#59636e">4%</tspan></text></g>
+<g class="in" style="animation-delay:1.04s"><circle cx="368.104" cy="234" r="4" fill="#8b949e"/><text x="377.104" y="238" font-size="12" fill="#1f2328">Other <tspan fill="#59636e">6%</tspan></text></g>
 <g class="in" style="animation-delay:0.90s">
 <path transform="translate(24 251) scale(0.875)" fill="#59636e" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
-<text x="43" y="262" font-size="12" fill="#59636e">6 commits</text>
-<path transform="translate(123.152 251) scale(0.875)" fill="#59636e" d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"/>
-<text x="142" y="262" font-size="12" fill="#59636e">Nov 2026</text>
+<text x="43" y="262" font-size="12" fill="#59636e">16 commits</text>
+<path transform="translate(131.6 251) scale(0.875)" fill="#59636e" d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"/>
+<text x="151" y="262" font-size="12" fill="#59636e">Nov 2026</text>
 </g>
 </g>
 </g>
