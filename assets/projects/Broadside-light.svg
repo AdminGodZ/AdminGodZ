@@ -46,16 +46,16 @@
 <clipPath id="bar210"><rect x="24" y="210" width="392" height="8" rx="4"/></clipPath>
 <g clip-path="url(#bar210)"><rect x="24" y="210" width="392" height="8" fill="#eaeef2"/>
 <g class="grow" style="animation-delay:0.30s">
-<rect x="24.0" y="210" width="314.5" height="8" fill="#F74C00"/>
-<rect x="338.0" y="210" width="26.5" height="8" fill="#e34c26"/>
-<rect x="364.0" y="210" width="23.9" height="8" fill="#ff5a03"/>
-<rect x="387.4" y="210" width="29.1" height="8" fill="#8b949e"/>
+<rect x="24.0" y="210" width="302.9" height="8" fill="#F74C00"/>
+<rect x="326.4" y="210" width="41.8" height="8" fill="#ff5a03"/>
+<rect x="367.6" y="210" width="22.3" height="8" fill="#3178c6"/>
+<rect x="389.4" y="210" width="27.1" height="8" fill="#8b949e"/>
 </g>
 </g>
-<g class="in" style="animation-delay:0.80s"><circle cx="28" cy="234" r="4" fill="#F74C00"/><text x="37" y="238" font-size="12" fill="#1f2328">Rust <tspan fill="#59636e">80%</tspan></text></g>
-<g class="in" style="animation-delay:0.88s"><circle cx="113.64800000000001" cy="234" r="4" fill="#e34c26"/><text x="122.64800000000001" y="238" font-size="12" fill="#1f2328">HTML <tspan fill="#59636e">7%</tspan></text></g>
-<g class="in" style="animation-delay:0.96s"><circle cx="200.748" cy="234" r="4" fill="#ff5a03"/><text x="209.748" y="238" font-size="12" fill="#1f2328">Astro <tspan fill="#59636e">6%</tspan></text></g>
-<g class="in" style="animation-delay:1.04s"><circle cx="285.076" cy="234" r="4" fill="#8b949e"/><text x="294.076" y="238" font-size="12" fill="#1f2328">Other <tspan fill="#59636e">7%</tspan></text></g>
+<g class="in" style="animation-delay:0.80s"><circle cx="28" cy="234" r="4" fill="#F74C00"/><text x="37" y="238" font-size="12" fill="#1f2328">Rust <tspan fill="#59636e">77%</tspan></text></g>
+<g class="in" style="animation-delay:0.88s"><circle cx="113.64800000000001" cy="234" r="4" fill="#ff5a03"/><text x="122.64800000000001" y="238" font-size="12" fill="#1f2328">Astro <tspan fill="#59636e">11%</tspan></text></g>
+<g class="in" style="animation-delay:0.96s"><circle cx="206.42400000000004" cy="234" r="4" fill="#3178c6"/><text x="215.42400000000004" y="238" font-size="12" fill="#1f2328">TypeScript <tspan fill="#59636e">6%</tspan></text></g>
+<g class="in" style="animation-delay:1.04s"><circle cx="324.54400000000004" cy="234" r="4" fill="#8b949e"/><text x="333.54400000000004" y="238" font-size="12" fill="#1f2328">Other <tspan fill="#59636e">7%</tspan></text></g>
 <g class="in" style="animation-delay:0.90s">
 <path transform="translate(24 251) scale(0.875)" fill="#59636e" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
 <text x="43" y="262" font-size="12" fill="#59636e">45 commits</text>
